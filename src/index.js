@@ -8,7 +8,7 @@ app.use(express.json())
 
 
 
-mongoose.connect("mongodb+srv://SagarMaan:yHJBlRWQ0FdJmdj6@chaudhary-shaab-db.cueddss.mongodb.net/GPSApp?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://YsBNn3psfljL6bFH:YsBNn3psfljL6bFH@cluster0.cio4vrk.mongodb.net/GPS?retryWrites=true&w=majority  ")
 
 .then(()=>{console.log("mongodb is connected successfully")})
 .catch((err)=>{console.log(err.message)})
